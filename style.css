@@ -1,0 +1,53 @@
+#jumbotron {
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	width: 20cm;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: .5cm;
+}
+
+#instruction {
+	width: 20cm;
+	margin: auto;
+}
+
+.panel-title {
+	font-size: 50px;
+	text-align: center;
+}
+
+.gems {
+	width: 134px;
+	height: 180px;
+	margin-left: 7.5cm;
+}
+
+.row {
+	width: 15cm;
+}
+
+#toMatch {
+	display: inline-block;
+	width: 4cm;
+	height: 3cm;
+}
+
+#scoreNow {
+	display: inline-block;
+	width: 4cm;
+	height: 3cm;
+}
+
+#scoreKeeper {
+	display: inline-block;
+	width: 4cm;
+	height: 3cm;
+}
+
+.rowScores {
+	margin-left: 8.5cm;
+}
+
+
