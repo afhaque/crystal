@@ -21,12 +21,19 @@
 .gems {
 	width: 134px;
 	height: 180px;
-	margin-left: 7.5cm;
+	/*margin-left: 7.5cm; */ /* CHANGE 1: This line of code is causing your buttons to overlap. It was an ambitious hack to get things to center, but it backfired :P; */ 
+	margin: 0 auto;
+	text-align: center;
 }
 
-.row {
+
+/* CHANGE 2: THIS CODE is also screwing you. If you change the .row class it really messes up Bootstrap since Bootstrap relies on it for the grid. 
+
+/*.row {
 	width: 15cm;
 }
+*/
+
 
 #toMatch {
 	display: inline-block;
